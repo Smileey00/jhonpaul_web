@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(moon.gif);
+}
+.meme img{
+    border: 1px solid gray;
+    border-radius: 50%;
+    height: 15em;
+    width: 15em;
+    filter: saturate(2);
+    filter: contrast(160%);
+}
+#header{
+    border: 1px solid darkred;
+    background: linear-gradient(to top, orange, orangered);
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    overflow-y: auto;
+    transition: all 0.5s;
+    z-index: 9999;
+    transition: all ease-in-out 0.5s;
+}
+.face{
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#social h1{
+    text-align: center;
+    color: snow;
+    font-weight: bold;
+    text-shadow: 4px 8px 8px black;
+}
+.device{
+    padding-top: 50px;
+    margin-left: 10px;
+    padding: 0;
+}
+.device p{
+    text-align: center;
+    font-size: 1em;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.device p span{
+    color: red;
+    text-shadow: 4px 8px 8px black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.device a{
+    text-decoration: none;
+    color: #040b14;
+    font-size: 20px;
+    transition: 0.2s ease-in-out;
+}
+.device a:hover{
+    color: red;
+    text-shadow: 1px 8px 2rem red;
+    font-size: 30px;
+}
+.image2{
+    color: snow;
+    text-align: center;
+    padding-left: 250px;
+    padding-bottom: 100px;
+    height: 800px;
+    width: 1120px;
+    filter: opacity(50%);
+}
+.smile h1{
+    text-align: center;
+    color: snow;
+    position: absolute;
+    padding-left: 300px;
+    padding-top: 250px;
+    font-size: 6em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.smile p{
+    position: absolute;
+    padding-left: 500px;
+    padding-top: 350px;
+    text-align: center;
+    font-size: 5em;
+    margin-left: 100px;
+    color: skyblue;
+    text-shadow: 4px 8px 8px black;
+}
+.smile span{
+    color: orangered;
+}
+.body2{
+    background: linear-gradient(to right, orangered, orange);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about h1{
+    font-size: 5rem;
+    font-weight: bold;
+    color: black;
+}
+.about p{
+    font-size: 20px;
+    color: snow;
+    text-shadow: 4px 5px 5px black;
+}
+.btbt a{
+    font-size: 30px;
+    margin-left: 370px;
+    text-decoration: none;
+    color: black;
+    text-shadow: 4px 5px 5px snow;
+    transition: 0.2s ease-in-out;
+}
+.btbt a:hover{
+    color: snow;
+}
+table, th, td {
+    border:1px solid black;
+}
+.section table{
+    width: 100%;
+}
+.section .d1{
+    background: black;
+    color: snow;
+    text-align: center;
+}
+.section .d2{
+    background: snow;
+    color: black;
+    text-align: center;
+}
+.section .d3{
+    background: black;
+    color: snow;
+    text-align: center;
+}
+.section .d4{
+    background: snow;
+    color: black;
+    text-align: center;
+}
+.section .d5{
+    background: black;
+    color: snow;
+    text-align: center;
+}
+.section .d6{
+    background: snow;
+    color: black;
+    text-align: center;
+}
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+  
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+}
+  
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: orangered;
+    color: black;
+}
+  
+.container {
+    padding: 0 16px;
+}
+  
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  
+.title {
+    color: grey;
+}
+  
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+.button:hover {
+    background-color: #555;
+}
+  
+@media screen and (max-width: 650px) {
+.column {
+    width: 100%;
+    display: block;
+}
+}
+.body3{
+    background: orange;
+}
+.card img{
+    width: 50%;
+}
+.light-grey{
+    background: linear-gradient(to right, orange, orangered);
+}
+.row5 img{
+    border-radius: 20%;   
+}
+.row6 h2{
+    font-size: 2em;
+    text-shadow: 4px 8px 8px black;
+}
+.rob1{
+    font-size: 2em;
+}
+.rob1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: snow;
+    width: 40%;
+    text-align: center;
+}
+.large2{
+    background-color: aqua;
+    text-align: center;
+}
